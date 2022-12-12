@@ -79,7 +79,7 @@ class SimpleText(Text):
         self.text = text
         self.x = center_x
         self.y = center_y
-        self.font = pygame.font.Font('Roboto-Regular.ttf', 14)
+        self.font = pygame.font.Font('Roboto-Regular.ttf', 24)
 
     def draw(self, surface: pygame.Surface):
         text_object = self.font.render(self.text, True, (255, 255, 255), (0, 0, 0))
